@@ -7,11 +7,11 @@ require "acts_as_followable/version"
 Gem::Specification.new do |s|
   s.name        = "acts_as_followable"
   s.version     = ActsAsFollowable::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActsAsFollowable."
-  s.description = "TODO: Description of ActsAsFollowable."
+  s.authors     = ["Qi Li"]
+  s.email       = ["cloudbsd@gmail.com"]
+  s.homepage    = "http://github.com/cloudbsd/acts_as_followable"
+  s.summary     = "Acts As Followable Gem."
+  s.description = "ActsAsFollowable gem provides a simple way to record users following relationship."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
