@@ -1,0 +1,2 @@
+module ActsAsFollowable
+end
